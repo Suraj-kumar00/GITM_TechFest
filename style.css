@@ -47,9 +47,9 @@ html {
 
 #logo {
   position: absolute;
-  height: 105px;
-  width: 110px;
-  border-radius: 50%;
+  height: 120px;
+  width: 130px;
+  /* border-radius: 50%; */
   top: 63px;
   left: 3%;
   background: white;
@@ -83,7 +83,7 @@ html {
 .heading-section {
   position: relative;
   /* height: 400px; */
-  background-image: url("");
+  background-image: url("./assets/bg-images/banner3.png");
   /* background-color: #232f3e; */
   background-size: cover;
   /* background-position-y: center; */
@@ -304,6 +304,39 @@ html {
   line-height: 1.6;
   margin-bottom: 15px;
   text-align: justify;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.container:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
+
+h2 {
+  color: #333;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 /* ... coundown section ... */
@@ -786,6 +819,10 @@ html {
 #for_capital {
   font-size: 28px;
 }
+
+/*
+this is the css for faq section
+*/
 
 .map-container {
   width: 400px;
