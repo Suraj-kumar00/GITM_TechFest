@@ -783,6 +783,9 @@ html {
   text-align: center;
   color: #e68a00;
 }
+#for_capital {
+  font-size: 28px;
+}
 
 .map-container {
   width: 400px;
