@@ -308,6 +308,8 @@ html {
   text-align: justify;
 }
 
+/* The Event Includes */
+
 .container {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -318,11 +320,25 @@ html {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   padding: 20px;
-  transition: background-color 0.3s; /* Smooth transition effect */
+  transition: background-color 1s; /* Smooth transition effect */
 }
+
+.container ol li a {
+  color: black; /* Default color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+.container ol li a:hover {
+  color: orange; /* Color on hover */
+}
+
+/* .container #prototype :hover {
+  color: #e68a00;
+} */
 
 .container:hover {
-  background-color: #e0e0e0; /* Change background color on hover */
+  background-color: #f2f2f2;
 }
 
 h2 {
