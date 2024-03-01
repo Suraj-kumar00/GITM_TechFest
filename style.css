@@ -45,15 +45,31 @@ html {
   }
 }
 
+
 #logo {
   position: absolute;
-  height: 120px;
-  width: 130px;
-  /* border-radius: 50%; */
-  top: 63px;
-  left: 3%;
-  background: white;
-  z-index: 2;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 60%; /* Adjust as needed to fit within the viewport */
+  max-height: 90vh; /* Ensure the image does not exceed 90% of the viewport height */
+  height: auto;
+}
+
+/* CSS for the heading content */
+.heading-content {
+  text-align: center;
+}
+
+/* Additional CSS for mobile */
+@media screen and (max-width: 768px) {
+  .heading-content {
+    text-align: center; /* Center-align the content on mobile */
+  }
+  #logo {
+    top: 18%;
+    max-width: 110%;
+  }
 }
 
 #ig-logo {
@@ -66,20 +82,13 @@ html {
   z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
-  #logo {
-    height: 65px;
-    width: 70px;
-    top: 46px;
-    left: 6%;
-  }
   #ig-logo {
     height: 70px;
     width: 70px;
     top: 46px;
     right: 6%;
   }
-}
+
 
 .heading-section {
   position: relative;
@@ -104,16 +113,8 @@ html {
   text-align: center;
 }
 
-.heading-content img {
-  text-align: center;
-  width: 200px;
-  padding: 10px;
-  margin-bottom: -80px;
-  margin-top: 60px;
-  border-radius: 50%;
-}
-
 .heading-content h2 {
+  padding-top: 30%;
   font-size: 3em;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
