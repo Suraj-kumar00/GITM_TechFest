@@ -55,6 +55,7 @@ html {
   background: white;
   z-index: 2;
 }
+
 #ig-logo {
   position: absolute;
   height: 110px;
@@ -83,7 +84,7 @@ html {
 .heading-section {
   position: relative;
   /* height: 400px; */
-  background-image: url("./assets/bg-images/banner.gif");
+  background-image: url("./assets/bg-images/tech-bakcground-banner5.gif");
   /* background-color: #232f3e; */
   background-size: cover;
   /* background-position-y: center; */
@@ -127,7 +128,7 @@ html {
   padding: 10px 20px;
   font-size: 1.2em;
   font-weight: bold;
-  background-color:  #161E2D;
+  background-color: #161e2d;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -143,7 +144,6 @@ html {
 
 .heading-content button:hover {
   background-color: orange; /* Change color on hover */
-
 }
 
 .heading-content p {
@@ -804,8 +804,8 @@ li {
   position: relative;
   top: 61px;
 }
-.venue-section h2{
-  color: #ffffff
+.venue-section h2 {
+  color: #ffffff;
 }
 .venue-content {
   max-width: 70%;
@@ -855,12 +855,12 @@ iframe {
   text-transform: uppercase;
 }
 
-#tech-spardha{
+#tech-spardha {
   color: #ff9900;
 }
 
 .footer {
-  background-color:#161E2D;
+  background-color: #161e2d;
   color: #fff;
   padding: 20px 0;
   text-align: center;
