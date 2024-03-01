@@ -15,7 +15,7 @@ html {
 
 .navbar {
   background-color: #232f3e;
-  background-color: #2a39ad;
+  background-color: #091224;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -34,7 +34,7 @@ html {
 }
 
 .navbar a:hover {
-  color: #c3c6d8;
+  color: orange;
 }
 
 @media screen and (max-width: 768px) {
@@ -83,7 +83,7 @@ html {
 .heading-section {
   position: relative;
   /* height: 400px; */
-  background-image: url("./assets/bg-images/banner3.png");
+  background-image: url("./assets/bg-images/banner.gif");
   /* background-color: #232f3e; */
   background-size: cover;
   /* background-position-y: center; */
@@ -127,7 +127,7 @@ html {
   padding: 10px 20px;
   font-size: 1.2em;
   font-weight: bold;
-  background-color: #001eff;
+  background-color:  #161E2D;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -142,7 +142,8 @@ html {
 }
 
 .heading-content button:hover {
-  background-color: #0060e6; /* Change color on hover */
+  background-color: orange; /* Change color on hover */
+
 }
 
 .heading-content p {
@@ -180,7 +181,7 @@ html {
 
 /* stats section */
 .stats-section {
-  background-color: #f2f2f2;
+  background-color: #091224;
   text-align: center;
   padding: 40px 0;
   position: relative;
@@ -190,6 +191,7 @@ html {
 .stats-content {
   max-width: 800px;
   margin: 0 auto;
+  color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -785,10 +787,14 @@ li {
 }
 
 .venue-section {
+  background-image: url("./assets/bg-images/tech-bakcground-banner1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #f8f8f8;
   text-align: center;
   padding: 30px 0;
-  color: #333;
+  color: #ffffff;
 }
 
 .venue-section img {
@@ -798,7 +804,9 @@ li {
   position: relative;
   top: 61px;
 }
-
+.venue-section h2{
+  color: #ffffff
+}
 .venue-content {
   max-width: 70%;
   margin: 0 auto;
@@ -814,7 +822,9 @@ li {
 
 .venue-details h2 {
   text-align: center;
+  font-size: medium;
   color: #e68a00;
+  font-size: 25px;
 }
 #for_capital {
   font-size: 28px;
@@ -845,8 +855,12 @@ iframe {
   text-transform: uppercase;
 }
 
+#tech-spardha{
+  color: #ff9900;
+}
+
 .footer {
-  background-color: #2a39ad;
+  background-color:#161E2D;
   color: #fff;
   padding: 20px 0;
   text-align: center;
