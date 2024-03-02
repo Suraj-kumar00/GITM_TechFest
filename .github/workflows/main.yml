@@ -23,6 +23,3 @@ jobs:
         with:
           name: gitm_techfest
           path: .  
-
-# You can replace this deployment step with your specific provider's action
-# Examples: AWS S3, Netlify, Vercel, etc.
