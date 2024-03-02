@@ -28,6 +28,7 @@ html {
 .navbar a {
   color: #fff;
   text-align: center;
+  align-items: center;
   padding: 14px 16px;
   text-decoration: none;
   font-weight: bold;
@@ -37,6 +38,34 @@ html {
   color: orange;
 }
 
+/*  */
+
+/*  */
+
+/* DevsDialogue community join button */
+
+.join-community-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 50px; */
+  color: #333;
+  text-decoration: none;
+  margin-left: auto; /* Move to the right side */
+}
+
+.join-community-btn .fab {
+  margin-right: 5px;
+}
+
+.discord:hover {
+  color: #7289da;
+}
+
+/* comnunity join button ends here */
+
 @media screen and (max-width: 768px) {
   .navbar a {
     font-size: small;
@@ -44,7 +73,6 @@ html {
     text-decoration: none;
   }
 }
-
 
 #logo {
   position: absolute;
@@ -82,13 +110,12 @@ html {
   z-index: 2;
 }
 
-  #ig-logo {
-    height: 70px;
-    width: 70px;
-    top: 46px;
-    right: 6%;
-  }
-
+#ig-logo {
+  height: 70px;
+  width: 70px;
+  top: 46px;
+  right: 6%;
+}
 
 .heading-section {
   position: relative;
