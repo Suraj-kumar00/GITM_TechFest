@@ -1,1 +1,1 @@
-## Tech Fest 2024 at Global Institute of Technology & Management
+![Techस्पर्धा](./assets/Github_READEM_Banner/GITM_TechFest_Banner.png)
