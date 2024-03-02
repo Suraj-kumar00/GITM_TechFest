@@ -1,0 +1,25 @@
+name: Build and Deploy Website
+
+# This workflow runs on push events to the main branch
+on:
+  push:
+    branches: [ main ]
+
+# Jobs to be executed in the workflow
+jobs:
+  deploy_website:
+    # Use a specific Ubuntu virtual environment
+    runs-on: ubuntu-latest
+
+    # Checkout the code from the repository
+    steps:
+      - uses: actions/checkout@v3
+
+      # No build step needed (as there's no package.json)
+
+      # Deploy the website (replace with your deployment steps)
+      - name: Deploy gitm_techfest
+        uses: actions/upload-artifact@v3
+        with:
+          name: gitm_techfest
+          path: .  
