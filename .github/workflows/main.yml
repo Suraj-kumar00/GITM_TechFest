@@ -1,20 +1,31 @@
-name: Super-Linter
+name: Build and Deploy Website
+
+# This workflow runs on push events to the main branch
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
+# Jobs to be executed in the workflow
 jobs:
-  super-lint:
-    name: Lint code base
+  build_and_deploy:
+    # Use a specific Ubuntu virtual environment
     runs-on: ubuntu-latest
+
+    # Checkout the code from the repository
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      
-      - name: Run Super-Linter
-        uses: github/super-linter@v3
+      - uses: actions/checkout@v3
+
+      # Install dependencies (if needed)
+      - name: Install dependencies
+        run: npm install || yarn install  # Adjust based on your package manager
+
+      # Build the static website
+      - name: Build website
+        run: npm run build || yarn build  # Adjust based on your build command
+
+      # Deploy the website (replace with your deployment steps)
+      - name: Deploy website
+        uses: actions/upload-artifact@v3
         with:
-          default_branch: main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: website
+          path: build  # Adjust the path to your built website folder
