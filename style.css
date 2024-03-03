@@ -332,6 +332,10 @@ html {
   text-align: justify;
 }
 
+#techbold {
+  font-weight: bold;
+}
+
 /* The Event Includes */
 
 .container {
