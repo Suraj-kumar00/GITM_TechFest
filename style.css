@@ -3,9 +3,9 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   line-height: 1.6;
   position: relative;
-  overflow-x: hidden;
 }
 
 html {
@@ -63,9 +63,19 @@ html {
 /* comnunity join button ends here */
 
 @media screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
   .navbar a {
     font-size: small;
     padding: 4px 6px;
+    overflow-x: hidden;
     text-decoration: none;
   }
 }
